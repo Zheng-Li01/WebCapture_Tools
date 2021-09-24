@@ -1,69 +1,6 @@
 {
   "cc": "scott.phibbs@microsoft.com;Ritesh.Parikh@microsoft.com;Varun.Gupta@microsoft.com",
   "accounts": [
-
-    {
-      "in?alias=anirudhg": null,
-      "fullName": "Anirudh Garg",
-      "alias": "anirudhg",
-      "email": "anirudhg@microsoft.com",
-      "cc": ""
-    },
-   
-    {
-      "fullName": "Brandon Bynum",
-      "alias": "brandonb",
-      "email": "brandonb@microsoft.com",
-      "cc": ""
-    },
-    {
-      "fullName": "Dinesh Chandnani ",
-      "alias": "dineshc",
-      "email": "dineshc@microsoft.com",
-      "cc": ""
-    },
-    {
-      "fullName": "Gearard Boland",
-      "alias": "gboland",
-      "email": "gboland@microsoft.com",
-      "cc": ""
-    },
-    {
-      "fullName": "Roshanak Zilouchian Moghaddam",
-      "alias": "rozilouc",
-      "email": "rozilouc@microsoft.com",
-      "cc": ""
-    },
-    {
-      "fullName": "Kai Maetzel",
-      "alias": "kamaet",
-      "email": "kamaet@microsoft.com",
-      "cc": ""
-    },
-    {
-      "fullName": "Rui Sun",
-      "alias": "ruisun",
-      "email": "ruisun@microsoft.com",
-      "cc": ""
-    },
-    {
-      "fullName": "Alex Blount",
-      "alias": "alblount",
-      "email": "alblount@microsoft.com",
-      "cc": ""
-    },
-    {
-      "fullName": "Nicole Haugen",
-      "alias": "nicolela",
-      "email": "nicolela@microsoft.com",
-      "cc": ""
-    },
-    {
-      "fullName": "Simon Calvert",
-      "alias": "simoncal",
-      "email": "simoncal@microsoft.com",
-      "cc": ""
-    },
     {
       "fullName": "Alex Chi",
       "alias": "alexchi",
@@ -71,15 +8,9 @@
       "cc": ""
     },
     {
-      "fullName": "DoRon Motter",
-      "alias": "doronm",
-      "email": "doronm@microsoft.com",
-      "cc": ""
-    },
-    {
-      "fullName": "Mike Montwill",
-      "alias": "mmontwil",
-      "email": "mmontwil@microsoft.com",
+      "fullName": "Anirudh Garg",
+      "alias": "anirudhg",
+      "email": "anirudhg@microsoft.com",
       "cc": ""
     },
     {
@@ -89,9 +20,63 @@
       "cc": ""
     },
     {
-      "fullName": "Sarika Calla",
-      "alias": "sacalla",
-      "email": "sacalla@microsoft.com",
+      "fullName": "Anthony Cangialosi",
+      "alias": "anthc",
+      "email": "anthc@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Art Leonard",
+      "alias": "artl",
+      "email": "artl@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Ashish Shah",
+      "alias": "ashah",
+      "email": "ashah@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Balan Subramanian",
+      "alias": "balans",
+      "email": "balans@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Barry Tang",
+      "alias": "barryta",
+      "email": "barryta@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Ulzii Luvsanbat",
+      "alias": "batul",
+      "email": "batul@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Bobby Mak",
+      "alias": "bobbymak",
+      "email": "bobbymak@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Bogdan Mihalcea",
+      "alias": "bogdanm",
+      "email": "bogdanm@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Brandon Bynum",
+      "alias": "brandonb",
+      "email": "brandonb@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Chris Hardy",
+      "alias": "chhard",
+      "email": "chhard@microsoft.com",
       "cc": ""
     },
     {
@@ -101,15 +86,141 @@
       "cc": ""
     },
     {
-      "fullName": "Xiaoyan Zhao",
-      "alias": "xiaozha",
-      "email": "xiaozha@microsoft.com",
+      "fullName": "Chuck Weininger",
+      "alias": "cweining",
+      "email": "cweining@microsoft.com",
       "cc": ""
     },
     {
-      "fullName": "Qing Ye",
-      "alias": "qingye",
-      "email": "qingye@microsoft.com",
+      "fullName": "Dan Moseley",
+      "alias": "danmose",
+      "email": "danmose@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Dinesh Chandnani",
+      "alias": "dineshc",
+      "email": "dineshc@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Donald Drake",
+      "alias": "dondr",
+      "email": "dondr@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "DoRon Motter",
+      "alias": "doronm",
+      "email": "doronm@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Elliott Hamai",
+      "alias": "ellhamai",
+      "email": "ellhamai@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Fatima Ijaz",
+      "alias": "faijaz",
+      "email": "faijaz@microsoft.com",
+      "cc": "forco@microsoft.com;Patrick.LeQuere@microsoft.com"
+    },
+    {
+      "fullName": "Galin Iliev",
+      "alias": "galini",
+      "email": "galini@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Gearard Boland",
+      "alias": "gboland",
+      "email": "gboland@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Greg Arnits",
+      "alias": "gregar",
+      "email": "gregar@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Graham Wheeler",
+      "alias": "grwheele",
+      "email": "grwheele@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Gus Perez",
+      "alias": "gusperez",
+      "email": "gusperez@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Heather Arbon",
+      "alias": "heathar",
+      "email": "heathar@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Janine Zhang",
+      "alias": "janinez",
+      "email": "janinez@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Jaroslav Dunajsky",
+      "alias": "jaroslad",
+      "email": "jaroslad@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Joe Binder",
+      "alias": "jbinder",
+      "email": "jbinder@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Jeff Schwartz",
+      "alias": "jeffschw",
+      "email": "jeffschw@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Jeff Yan",
+      "alias": "jeffya",
+      "email": "jeffya@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Jeff Yan",
+      "alias": "jehollan",
+      "email": "jehollan@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Jenny Lawrance",
+      "alias": "jennylaw",
+      "email": "jennylaw@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Joseph Hill",
+      "alias": "jhill",
+      "email": "jhill@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Jonathan Carter",
+      "alias": "joncart",
+      "email": "joncart@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Kai Maetzel",
+      "alias": "kamaet",
+      "email": "kamaet@microsoft.com",
       "cc": ""
     },
     {
@@ -119,72 +230,262 @@
       "cc": ""
     },
     {
-      "fullName": "Joaquin Vano",
-      "alias": "joaquinv",
-      "email": "Joaquin.Vano@microsoft.com",
+      "fullName": "Kevin Pilch",
+      "alias": "kevinpi",
+      "email": "kevinpi@microsoft.com",
       "cc": ""
     },
     {
-      "fullName": "Galin Iliev",
-      "alias": "galini",
-      "email": "Galin.Iliev@microsoft.com",
-      "cc": ""
-    },
-  
-    {
-      "fullName": "Scott Hunter",
-      "alias": "scothu",
-      "email": "Scott.Hunter@microsoft.com",
+      "fullName": "Kelly Krout",
+      "alias": "kkrout",
+      "email": "kkrout@microsoft.com",
       "cc": ""
     },
     {
-      "fullName": "Gus Perez",
-      "alias": "gusperez",
-      "email": "Gus.Perez@microsoft.com",
+      "fullName": "Luis Aguilera-Steinert",
+      "alias": "laguiler",
+      "email": "laguiler@microsoft.com",
       "cc": ""
     },
     {
-      "fullName": "Svetlana Loksh",
-      "alias": "svetlanl",
-      "email": "Svetlana.Loksh@microsoft.com",
+      "fullName": "Lubo Birov",
+      "alias": "lubomirb",
+      "email": "lubomirb@microsoft.com",
       "cc": ""
     },
     {
-      "fullName": "Graham Wheeler",
-      "alias": "grwheele",
-      "email": "Graham.Wheeler@microsoft.com",
+      "fullName": "Mandy Whaley",
+      "alias": "mandywhaley",
+      "email": "mandywhaley@microsoft.com",
       "cc": ""
     },
     {
-      "fullName": "Ronnie Yates",
-      "alias": "royate",
-      "email": "Ronnie.Yates@microsoft.com",
+      "fullName": "Manish Jayaswal",
+      "alias": "manishj",
+      "email": "manishj@microsoft.com",
       "cc": ""
     },
     {
-      "fullName": "Steve Carroll",
-      "alias": "scarroll",
-      "email": "Steven.Carroll@microsoft.com",
+      "fullName": "Marisa Parker",
+      "alias": "marisapa",
+      "email": "marisapa@microsoft.com",
       "cc": ""
     },
     {
-      "fullName": "Ashish Shah",
-      "alias": "ashah",
-      "email": "Ashish.Shah@microsoft.com",
+      "fullName": "Marek Safar",
+      "alias": "masafa",
+      "email": "masafa@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Mayuri Diwan",
+      "alias": "mayurid",
+      "email": "mayurid@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Mike Montwill",
+      "alias": "mmontwil",
+      "email": "mmontwil@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Mohammed Abdul Rawoof",
+      "alias": "moabdu",
+      "email": "moabdu@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Monty Hammontree",
+      "alias": "montyh",
+      "email": "montyh@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Nathan Auer",
+      "alias": "nathanauer",
+      "email": "nathanauer@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Neeraja Singireddy",
+      "alias": "neerajar",
+      "email": "neerajar@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Nitasha Verma",
+      "alias": "nitashav",
+      "email": "nitashav@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Paul Kuklinski",
+      "alias": "paulku",
+      "email": "paulku@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Praveen Babu Tirumala",
+      "alias": "pbabut",
+      "email": "pbabut@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Paul Chapman",
+      "alias": "pchapman",
+      "email": "pchapman@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Petr Podhorsky",
+      "alias": "petrpod",
+      "email": "petrpod@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Pavel Feldman",
+      "alias": "pfeldman",
+      "email": "pfeldman@microsoft.com",
       "cc": ""
     },
     {
       "fullName": "Peter Marcu",
       "alias": "pmarcu",
-      "email": "Peter.Marcu@microsoft.com",
+      "email": "pmarcu@microsoft.com",
       "cc": ""
     },
     {
-      "fullName": "Fatima Ijaz",
-      "alias": "faijaz",
-      "email": "Fatima.Ijaz@microsoft.com",
-      "cc": "forco@microsoft.com;Patrick.LeQuere@microsoft.com"
+      "fullName": "Qing Ye",
+      "alias": "qingye",
+      "email": "qingye@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Russell Hadley",
+      "alias": "rhadley",
+      "email": "rhadley@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Ronnie Yates",
+      "alias": "royate",
+      "email": "royate@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Rui Sun",
+      "alias": "ruisun",
+      "email": "ruisun@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Sarika Calla",
+      "alias": "sacalla",
+      "email": "sacalla@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Samantha Houts",
+      "alias": "sahou",
+      "email": "sahou@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Samer Alameer",
+      "alias": "sameal",
+      "email": "sameal@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Steve Carroll",
+      "alias": "scarroll",
+      "email": "scarroll@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Scott Hunter",
+      "alias": "scothu",
+      "email": "scothu@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Scott Hanselman",
+      "alias": "scottha",
+      "email": "scottha@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Shawn Rothlisberger",
+      "alias": "shawnr",
+      "email": "shawnr@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Simon Calvert",
+      "alias": "simoncal",
+      "email": "simoncal@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Svetlana Kofman",
+      "alias": "skofman",
+      "email": "skofman@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Srivatsn Narayanan",
+      "alias": "srivatsn",
+      "email": "srivatsn@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Stefan Schackow",
+      "alias": "stefsch",
+      "email": "stefsch@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Sumit Gulwani",
+      "alias": "sumitg",
+      "email": "sumitg@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Svetlana Loksh",
+      "alias": "svetlanl",
+      "email": "svetlanl@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Xiaoyan Zhao",
+      "alias": "xiaozha",
+      "email": "xiaozha@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Yuval Mazor",
+      "alias": "yuvalm",
+      "email": "yuvalm@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Zhen Jiao",
+      "alias": "zhenjiao",
+      "email": "zhenjiao@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Zhe Yang",
+      "alias": "zhey",
+      "email": "zhey@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Zhishou Zhang",
+      "alias": "zhiszhan",
+      "email": "zhiszhan@microsoft.com",
+      "cc": ""
     }
   ]
 }
-
