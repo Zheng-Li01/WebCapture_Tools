@@ -486,6 +486,30 @@
       "alias": "zhiszhan",
       "email": "zhiszhan@microsoft.com",
       "cc": ""
+    },
+    {
+      "fullName": "Joaquin Vano",
+      "alias": "joaquinv",
+      "email": "Joaquin.Vano@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Roshanak Zilouchian Moghaddam",
+      "alias": "rozilouc",
+      "email": "rozilouc@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Alex Blount",
+      "alias": "alblount",
+      "email": "alblount@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Nicole Haugen",
+      "alias": "nicolela",
+      "email": "nicolela@microsoft.com",
+      "cc": ""
     }
   ]
 }

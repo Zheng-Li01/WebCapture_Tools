@@ -13,6 +13,7 @@ from email.header import Header
 import os
 import win32com
 import win32com.client as win32
+import openpyxl
 
 os.startfile("outlook")
 accounts = {}
@@ -21,17 +22,36 @@ with open("./accounts.json") as accounts_f:
     accounts = json.load(accounts_f)
 
 cc = accounts["cc"]
+totals = []
+
+wb = openpyxl.load_workbook("DevDiv Dogfooding By M2.xlsx")
+try:
+  sheet = wb[time.strftime('%y-%m-%d' , time.localtime())]
+except KeyError:
+  sheet = wb.create_sheet(time.strftime('%y-%m-%d' , time.localtime()))
+  sheet["A1"] = "Manager"
+  sheet["B1"] = "Week Of 9/27 %Dogfooding"
+
+i = 2
+while True:
+  if sheet["A{0}".format(i)].value is None:
+    break
+  else:
+    i+=1
+
+
 for account in accounts["accounts"]:
   url = "https://shipready.vsdata.io/vs/whodogfoods/wdmain?alias={0}".format(account["alias"]) 
   app = Application().start("C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe")
   edge = Desktop(backend="uia")["New tab - Work - Microsoft Edge"]
+  time.sleep(2)
   edge.type_keys(url)
   edge.type_keys("{ENTER}")
   time.sleep(25)
   label = edge["{0} reports".format(account["alias"])]
   
   content = ""
-  with open("./email.html") as email_f:
+  with open("./email.html", encoding="utf-8") as email_f:
     content = email_f.read()
   content = content.replace("ALIASIMAGE", account["alias"])
   parent = label.parent()
@@ -40,6 +60,12 @@ for account in accounts["accounts"]:
     if "{0} reports".format(account["alias"]) in children[index].element_info.name:
       break
   elem = children[index+1]
+
+  sheet["A{0}".format(i)] = account["fullName"]
+  sheet["B{0}".format(i)] = elem.element_info.name
+  i += 1
+  wb.save("DevDiv Dogfooding By M2.xlsx")
+
   rect = elem.rectangle()
   aliasRect = label.rectangle()
   mouse.move(coords=(int((rect.left + rect.right)/2), int((rect.top + rect.bottom)/2)))
@@ -55,9 +81,8 @@ for account in accounts["accounts"]:
 
   subject = "VS 2022 Dogfood Adoption Rates {0} for week ending {1}".format(
   account["alias"], time.strftime('%m/%d/%y' , time.localtime()))
-
-
-  outlook = win32.Dispatch('Outlook.Application')
+ 
+  outlook = win32.Dispatch("Outlook.Application")
   mail = outlook.CreateItem(0)
   mail.Recipients.Add(account["email"])
   mail.Subject = subject
@@ -69,28 +94,4 @@ for account in accounts["accounts"]:
   mail.Attachments.Add(os.path.abspath("./images/{0}.png".format(account["alias"])))
   mail.HtmlBody = content
   mail.Display()
-  mail.Send()
-  '''
-  message = MIMEMultipart('related')
-  message['From'] = "lvniao11235@163.com"
-  message['To'] = account["email"]
-  message['Subject'] = subject
-  message.attach(MIMEText(content,'html','utf-8'))
-  if(len(account["fullName"]) == 0):
-    message['CC'] = accounts["cc"]
-  else:
-    message['CC'] = account["cc"]
-  
-  with open("./images/{0}.png".format(account["alias"]), 'rb') as img:
-    image = MIMEImage(img.read())
-    image.add_header('Content-ID', '<image1>')
-    message.attach(image)
-  
-  smtpObj = smtplib.SMTP_SSL(accounts["emailServerUrl"], accounts["emailServerPort"])
-  smtpObj.login(accounts["emailUsername"], accounts["emailPassword"])
-  smtpObj.sendmail("lvniao11235@163.com", "lvniao11235@163.com", message.as_string())
-  time.sleep(2)
-  '''
-  
-
-
+  mail.Send()  
