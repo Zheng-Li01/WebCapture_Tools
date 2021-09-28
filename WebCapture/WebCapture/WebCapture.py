@@ -47,7 +47,7 @@ for account in accounts["accounts"]:
   time.sleep(2)
   edge.type_keys(url)
   edge.type_keys("{ENTER}")
-  time.sleep(25)
+  time.sleep(12)
   label = edge["{0} reports".format(account["alias"])]
   
   content = ""
