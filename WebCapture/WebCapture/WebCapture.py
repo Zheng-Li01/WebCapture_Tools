@@ -39,8 +39,12 @@ while True:
   else:
     i+=1
 
+#Managers = "lubomirb,manishj,sacalla,barryta,anthc,dondr,anirudhg,laguiler,zhiszhan,sameal,batul,danmose,faijaz,galini,kevinpi,paulku,srivatsn,ansonh,neerajar,bogdanm,yuvalm,rhadley,artl,skofman,gregar,sumitg,qingye,zhenjiao,shawnr,jeffschw,masafa,brandonb,gboland,ruisun,pfeldman,moabdu,joncart,cweining,grwheele,pchapman,mandywhaley,heathar,kamaet,stefsch,mayurid"
+#lists = Managers.split(",")
 
 for account in accounts["accounts"]:
+  #if len(lists) > 0 and account["alias"] not in lists:
+  #  continue
   url = "https://shipready.vsdata.io/vs/whodogfoods/wdmain?alias={0}".format(account["alias"]) 
   app = Application().start("C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe")
   edge = Desktop(backend="uia")["New tab - Work - Microsoft Edge"]
