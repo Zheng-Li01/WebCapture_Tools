@@ -39,7 +39,7 @@ while True:
   else:
     i+=1
 
-#Managers = "lubomirb,manishj,sacalla,barryta,anthc,dondr,anirudhg,laguiler,zhiszhan,sameal,batul,danmose,faijaz,galini,kevinpi,paulku,srivatsn,ansonh,neerajar,bogdanm,yuvalm,rhadley,artl,skofman,gregar,sumitg,qingye,zhenjiao,shawnr,jeffschw,masafa,brandonb,gboland,ruisun,pfeldman,moabdu,joncart,cweining,grwheele,pchapman,mandywhaley,heathar,kamaet,stefsch,mayurid"
+#Managers = "lubomirb,manishj,sacalla,barryta,anthc,dondr,anirudhg,laguiler,zhiszhan,sameal,batul,danmose,faijaz,galini,kevinpi,paulku,srivatsn,ansonh,neerajar,bogdanm,yuvalm,rhadley,artl,skofman,gregar,sumitg,qingye,zhenjiao,shawnr,jeffschw,masafa,brandonb,gboland,ruisun,pfeldman,moabdu,joncart,cweining,grwheele,pchapman,mandywhaley,heathar,stefsch,mayurid"
 #lists = Managers.split(",")
 
 for account in accounts["accounts"]:
