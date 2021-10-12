@@ -146,15 +146,15 @@
       "cc": ""
     },
     {
-      "fullName": "Graham Wheeler",
-      "alias": "grwheele",
-      "email": "grwheele@microsoft.com",
-      "cc": ""
-    },
-    {
       "fullName": "Gus Perez",
       "alias": "gusperez",
       "email": "gusperez@microsoft.com",
+      "cc": ""
+    },
+    {
+      "fullName": "Graham Wheeler",
+      "alias": "grwheele",
+      "email": "grwheele@microsoft.com",
       "cc": ""
     },
     {
@@ -359,12 +359,6 @@
       "fullName": "Russell Hadley",
       "alias": "rhadley",
       "email": "rhadley@microsoft.com",
-      "cc": ""
-    },
-    {
-      "fullName": "Ronnie Yates",
-      "alias": "royate",
-      "email": "royate@microsoft.com",
       "cc": ""
     },
     {
